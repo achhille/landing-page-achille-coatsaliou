@@ -197,8 +197,29 @@ header:hover{
                 /* Footer */
 .pied{
     background-color: #F7C983;
-    height: 5vw;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .desc{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        color: whitesmoke;
+        background-color: #491941;
+        padding: 30px;  
+    }
+
+    .building{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-variant: small-caps;
+        font-size: 10px;
+        color: whitesmoke;
+    }
+
+    .pied{
+        font-size: 8px;
+    }
 }
