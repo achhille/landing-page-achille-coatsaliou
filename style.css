@@ -195,11 +195,10 @@ header:hover{
 
 
                 /* Footer */
-footer{
+.pied{
     background-color: #F7C983;
     height: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
